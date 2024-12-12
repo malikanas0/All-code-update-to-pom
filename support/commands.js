@@ -33,3 +33,4 @@ Cypress.Commands.add("move", (pick, drop) => {
   cy.get(`[name="space${drop}"]`).click().should('have.attr', 'src', 'you1.gif')
   cy.wait(3000)
 });
+
